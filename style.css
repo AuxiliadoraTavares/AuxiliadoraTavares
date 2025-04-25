@@ -1,0 +1,137 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #050646; 
+  background-color: #ffffff; 
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #0861c7; 
+  color: #ffffff; 
+  padding: 30px;
+  text-align: center;
+}
+
+header nav a {
+  color: #ffdd1c; 
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #e70606; 
+}
+
+
+header img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+section {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #ffffff; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2, section h3, section h4, section h5 {
+  color: #050f6d; 
+  margin-bottom: 20px;
+}
+
+section p {
+  color: #220d0d; 
+  margin-bottom: 15px;
+}
+
+section ul {
+  padding-left: 20px;
+  color: #1d1212; 
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+
+a {
+  color: #0c0999; 
+  text-decoration: none;
+  transition: color 10.3s ease;
+}
+
+a:hover {
+  color: #0861c7; 
+}
+
+/* Rodapé */
+footer {
+  background-color: #0861c7; 
+  color: #f5dd0b; 
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer div {
+  margin-bottom: 20px;
+}
+
+footer nav a {
+  display: inline-block;
+  margin: 5px 10px;
+  color: #ebdc08;
+  color: darkred; 
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer nav a:hover {
+  color: #0f485f; 
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+
+footer strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Créditos */
+footer div:last-child {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #bdc3c7; 
+}
+
+footer div:last-child a {
+  color: #ebdc08; 
+  text-decoration: underline;
+}
+
+footer div:last-child a:hover {
+  color: #ebdc08; }
+footer a {
+  color: #007BFF; 
+  text-decoration: none; 
+}
+
+footer a:hover {
+  color: #073c72; 
+}
